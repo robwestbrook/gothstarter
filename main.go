@@ -8,7 +8,7 @@ import (
 
 	"github.com/go-chi/chi/v5"
 	"github.com/joho/godotenv"
-	"github.com/robwestbrook/gothstarter/handlers"
+	"github.com/robwestbrook/go-mylife/handlers"
 )
 
 func main() {

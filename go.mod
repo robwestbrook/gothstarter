@@ -1,4 +1,4 @@
-module github.com/robwestbrook/gothstarter
+module github.com/robwestbrook/go-mylife
 
 go 1.22.3
 
