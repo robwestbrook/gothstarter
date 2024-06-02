@@ -7,6 +7,7 @@ import (
 	"github.com/a-h/templ"
 )
 
+// Define the HTTPHandler type
 type HTTPHandler func(w http.ResponseWriter, r *http.Request) error
 
 // Make takes in a handler and returns a handler function.

@@ -23,6 +23,7 @@ func main() {
 	// Routes
 	router.Handle("/public/*", http.StripPrefix("/public/", http.FileServer(http.Dir("./public"))))
 	router.Get("/", handlers.Make(handlers.HandleHome))
+	router.Get("/login", handlers.Make(handlers.HandleLogin))
 
 	// Start server
 	listenAddr := os.Getenv("LISTEN_ADDR")
